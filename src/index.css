@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", "Rubik", sans-serif;
+  background-color: #04070d;
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.main-button {
+  color: #ffffff;
+  padding: 8px 16px;
+  font-size: 24px;
+  font-weight: 500;
+  background: linear-gradient(to right, #00c2ff, #007499);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.alternative-button {
+  font-size: 24px;
+  padding: 8px 16px;
+  border: 1px solid #00c2ff;
+  font-weight: 500;
+  margin-left: 12px;
+  background: linear-gradient(to right, #00c2ff80, #00c2ff);
+  border-radius: 12px;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.section-title {
+  padding: 10px;
+  text-align: center;
+  padding: 46px 0px 36px 0px;
+}
+
+.section-title div {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+.section-title h5 {
+  font-size: 18px;
+  color: #00c2ff;
+  font-weight: 300;
+}
+.section-title h2 {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 600;
+}
+.section-title h3 {
+  font-size: 36px;
+  background: linear-gradient(to left, #00c2ff, #00c2ff66);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}

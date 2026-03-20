@@ -1,0 +1,85 @@
+.hero-section {
+  background-image: url(/assets/hero-img.png);
+  background-position: center;
+  background-size:cover;
+  height: 78vh;
+  width: 100%;
+}
+
+.hero-body {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  padding: 70px 0px 58px 0px;
+  color: #fff;
+}
+
+.hero-title {
+  font-size: 20px;
+  line-height: 22.75px;
+  background-color: #00c2ff33;
+  padding: 9px 16px;
+  border-radius: 32px;
+  font-weight: 400;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.hero-header {
+  font-size: 62px;
+  font-weight: 600;
+}
+
+.hero-header::after {
+  content: "Scalable Digital Product";
+  font-size: 62px;
+  font-weight: 600;
+
+  background: linear-gradient(
+    to left,
+    #00c2ff,
+    #00c2ff66,
+    #00c2ff66,
+    #dfecf066,
+    #c8dfe666,
+    #fff
+  );
+
+  background-size: 200%;
+
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animation-gradient 2.5s linear infinite;
+}
+
+@keyframes animation-gradient {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.hero-description {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.5px;
+}
+
+.hero-buttons {
+  margin: 38px 0px 52px 0px;
+}
+
+.Team-statistics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 114px;
+}
+.Team-statistics h5 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.Team-statistics span {
+  font-size: 12px;
+  color: #64748b;
+  font-weight: 700;
+}

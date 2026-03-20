@@ -1,0 +1,76 @@
+.javaScript-section {
+  height: 125vh;
+  margin-bottom:80px ;
+  background-image: url("/public/assets/javascript/Js.png");
+  background-size: contain;
+  background-position: center;
+}
+.javaScript-header {
+  font-size: 24px;
+  font-weight: 300;
+  color: #00c2ff;
+  padding-bottom: 24px;
+  text-align: center;
+}
+.javaScript-paragraph {
+  font-size: 18px;
+  font-weight: 300;
+  color: #94a3b8;
+}
+.javaScript-title {
+  width: 60%;
+}
+.javaScript-features {
+  display: grid;
+  padding: 42px 0px;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 199px;
+}
+
+.javaScript-features-2 {
+  margin-left: 250px;
+}
+.javaScript-features div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.35s;
+}
+.javaScript-features div:hover {
+  transform: scale(1.3);
+}
+.javaScript-features img {
+  height: 50px;
+  width: 50px;
+}
+.javaScript-features h5 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f1f5f9;
+  padding: 10px;
+}
+
+.javaScript-enterprise {
+  color: #00c2ff;
+  padding-bottom: 42px;
+  font-size: 12px;
+  text-align: center;
+}
+.web-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+
+.web-description {
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #94a3b8;
+}
+.javaScript-web {
+  display: flex;
+  gap: 96px;
+}

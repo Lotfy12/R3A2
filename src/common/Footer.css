@@ -1,0 +1,161 @@
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  color: #fff;
+  padding: 0px 0px 30px 0px;
+}
+.footer {
+  padding: 80px 0;
+  color: #cbd5e1;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+  gap: 40px;
+}
+
+.footer-brand .logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-brand .logo img {
+  height: 45px;
+}
+
+.footer-brand .logo h2 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #00c2ff;
+}
+
+.tagline {
+  color: #00c2ff;
+  margin: 16px 0;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #94a3b8;
+  max-width: 300px;
+}
+
+.footer-links h4 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-links li:hover ,.bug-items span:hover{
+  color: #00c2ff;
+  transform: translateX(5px);
+}
+.bug-items span{
+    transition: all 0.35s;
+}
+.footer-contact h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.contact-item span {
+  font-size: 18px;
+}
+
+.contact-item p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.social-icons span {
+  font-size: 18px;
+  width: 45px;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icons span:hover  {
+  background: #00c2ff;
+  color: #000;
+}
+
+@media (max-width: 992px) {
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .footer-brand {
+    grid-column: span 2;
+  }
+
+  .footer-contact {
+    grid-column: span 2;
+  }
+}
+
+.bug {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0px 0px 0px;
+  border-top: 1px solid #221c1c;
+  font-size: 14px;
+  color: #4f4f4f;
+}
+
+.bug-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+@media (max-width: 576px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-brand,
+  .footer-contact {
+    grid-column: span 1;
+  }
+}
