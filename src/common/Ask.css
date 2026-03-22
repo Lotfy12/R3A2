@@ -4,7 +4,7 @@
 
 .ask-content {
   margin: 0 auto;
-  max-width: 70%;
+  max-width: 60%;
 }
 .ask-background {
   background-image: url(/public/assets/ask/ask-background.png);
@@ -16,8 +16,7 @@
 }
 .ask-title {
   color: #ffffff;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 40px;
   font-weight: 600;
   padding-top: 64px;
 }

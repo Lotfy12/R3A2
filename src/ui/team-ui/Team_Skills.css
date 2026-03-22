@@ -1,0 +1,224 @@
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.team-values {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* ================= GLOBAL ================= */
+.team-section {
+  padding: 100px 0;
+  color: #fff;
+}
+
+
+
+/* ================= TEAM GRID ================= */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+/* ================= CARD ================= */
+.team-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 194, 255, 0.05);
+  border: 1px solid rgba(0, 194, 255, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+/* glow effect */
+.team-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at left, #00c2ff22, transparent 60%);
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.team-card:hover::before {
+  opacity: 1;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  border-color: #00c2ff55;
+}
+
+/* ================= LEFT TEXT ================= */
+.team-info h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.team-info span {
+  font-size: 14px;
+  color: #94a3b8;
+  display: block;
+  margin: 8px 0;
+}
+
+.team-info p {
+  font-size: 14px;
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin: 12px 0;
+  max-width: 280px;
+}
+
+/* skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skills span {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #cbd5e1;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ================= IMAGE ================= */
+.team-image {
+  position: relative;
+}
+
+.team-image img {
+  width: 160px;
+  border-radius: 12px;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.team-card:hover .team-image img {
+  filter: grayscale(0%);
+}
+
+/* ================= SOCIAL ================= */
+.team-social {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.team-social span {
+  width: 35px;
+  height: 35px;
+  background: #99e2f870;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.team-social span:hover {
+  background: #fff;
+}
+.team-values-header p {
+    font-size: 14px;
+}
+/* ================= SECTION TITLE ================= */
+.team-values-header {
+  text-align: center;
+  margin: 100px 0 50px;
+}
+
+.team-values-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.team-values-header p {
+  color: #94a3b8;
+  margin-top: 10px;
+}
+
+/* ================= VALUES ================= */
+.team-values {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* value card */
+.value-card {
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 16px;
+  background: rgba(0, 194, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: 0.3s;
+}
+
+.value-card:hover {
+  transform: translateY(-6px);
+  border-color: #00c2ff55;
+}
+
+/* icon */
+.value-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin: auto;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+/* text */
+.value-card h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.value-card p {
+  font-size: 14px;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 992px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .team-values {
+    grid-template-columns: 1fr;
+  }
+
+  .team-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .team-info p {
+    max-width: 100%;
+  }
+}

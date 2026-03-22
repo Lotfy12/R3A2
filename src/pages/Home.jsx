@@ -59,7 +59,7 @@ const Home = () => {
         <JavaScript />
         <OverView />
         <Ask
-          title="Let’s Build Something Exceptional."
+          title="Let’s Build Something Exceptional"
           paragraph="Ready to turn your ideas into scalable digital solutions? Our team is ready to architect your next breakthrough"
           main_btn="Start the project"
           alt_btn="Explore Project"
