@@ -11,7 +11,7 @@ import Loading from "./common/Loading";
 // );
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
-const Contact = lazy(() => import("./pages/Contact"));
+const Contact_Us = lazy(() => import("./pages/Contact_US"));
 const Projects = lazy(() => import("./pages/Projects"));
 const Services = lazy(() => import("./pages/Services"));
 const Team = lazy(() => import("./pages/Team"));
@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="contact" element={<Contact_Us />} />
           <Route path="projects" element={<Projects />} />
           <Route path="services" element={<Services />} />
           <Route path="team" element={<Team />} />

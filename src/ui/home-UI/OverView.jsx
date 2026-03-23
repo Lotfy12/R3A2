@@ -20,7 +20,7 @@ const OverView = () => {
   ];
 
   return (
-    <section>
+    <section className="overview-session">
       <div class="container">
         <div class="main-content">
           <div class="info-column">

@@ -1,0 +1,43 @@
+.title-hero-info {
+  padding: 100px 40px 50px 0px;
+  width: 80%;
+}
+.title-hero-info span {
+  font-size: 18px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #13a4ec;
+  padding-bottom: 13px;
+}
+
+.title-hero-info h1 {
+  font-size: 72px;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+
+.title-hero-info h3 {
+  font-size: 72px;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+
+.title-hero-info h3 {
+  background: linear-gradient(90deg, #13a4ec, #22d3ee);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-hero-info p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+
+  color: #94a3b8;
+}
+
+.title-hero-content {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}

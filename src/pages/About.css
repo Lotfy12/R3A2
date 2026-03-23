@@ -1,0 +1,7 @@
+.about-session{
+    background-image: url(/public/assets/about/about-session.png);
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}

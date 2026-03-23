@@ -1,0 +1,130 @@
+.projects-card-session {
+  padding: 80px 0;
+}
+
+.projects-card-content h5 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.projects-card-content p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #94a3b8;
+}
+
+.projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.card-transition {
+  display: flex;
+  gap: 15px;
+}
+
+.card-transition button {
+  background: transparent;
+  border: 1px solid #ffffff22;
+  color: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 6px;
+}
+
+.card-transition button:hover {
+  background: #00c2ff4d;
+}
+
+.projects-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 50px;
+}
+
+.projects-card .card:nth-child(1) {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.card {
+  background: rgba(0, 194, 255, 0.05);
+  border: 1px solid rgba(0, 194, 255, 0.1);
+  border-radius: 16px;
+  padding: 30px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #00c2ff;
+}
+.project-img:nth-child(1) {
+  width: 100%;
+}
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.technologies {
+  position: absolute;
+  left: 40px;
+  top: 290px;
+  z-index: 100;
+}
+
+.card h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #00c2ff;
+}
+.technologies {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.technologies span {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: hsl(213, 27%, 84%);
+}
+
+.card h4 {
+  font-size: 18px;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 14px;
+  color: #94a3b8;
+}
+.card button {
+  margin: 15px 0px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .projects-card {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}

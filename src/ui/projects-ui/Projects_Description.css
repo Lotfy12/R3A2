@@ -1,0 +1,15 @@
+.projects-work-description {
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url(/public/assets/projects/lighting.png);
+  background-position: center;
+}
+
+.projects-work-description p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 16%;
+}
