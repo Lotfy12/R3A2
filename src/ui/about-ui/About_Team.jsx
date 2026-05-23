@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router-dom";
 import "./About_Team.css";
 const About_Team = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="about-team-session">
@@ -29,7 +31,7 @@ const About_Team = () => {
             solutions for our clients
           </p>
 
-          <button className="main-button">Explore Services</button>
+          <button className="main-button" onClick={() => navigate("/projects")}>Explore Services</button>
         </div>
       </section>
     </>

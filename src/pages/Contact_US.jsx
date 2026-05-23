@@ -3,7 +3,6 @@ import Main_Title from "../common/Main_Title";
 import NavBar from "../common/NavBar";
 import Contact_Session from "../ui/contact_us-ui/Frequently_Questions";
 import Form from "../ui/contact_us-ui/Form";
-import "./Contact_Us.css";
 
 const Contact_US = () => {
   return (

@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import "./Community.css";
 
 const Community = () => {
+  const navigate = useNavigate();
   return (
     <section class="commitment">
       <div class="commitment__container">
@@ -61,13 +63,13 @@ const Community = () => {
               committed to delivering results.
             </p>
             <div class="feature-card__links">
-              <a href="#" class="link-btn">
+              <a href="#" class="link-btn" onClick={() => navigate("/contact")}>
                 Get Started
               </a>
-              <a href="#" class="link-btn">
+              <a href="#" class="link-btn" onClick={() => navigate("/projects")}>
                 Schedule Call
               </a>
-              <a href="#" class="link-btn">
+              <a href="#" class="link-btn" onClick={() => navigate("/team")}>
                 Learn More
               </a>
             </div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Contact_Session.css";
 
 const ContactSection = () => {
@@ -67,7 +67,6 @@ const ContactSection = () => {
   };
 
   return (
-    // {/* FAQ Section */}
     <section className="faq-section">
       <h2 className="faq-title">Frequently Asked Questions</h2>
 

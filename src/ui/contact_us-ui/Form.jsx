@@ -13,7 +13,6 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
-    // Reset form after submission
     setFormData({
       fullName: "",
       email: "",

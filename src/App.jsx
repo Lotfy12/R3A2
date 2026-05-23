@@ -1,4 +1,3 @@
-import "./App.css";
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -6,11 +5,11 @@ import Loading from "./common/Loading";
 const Home = lazy(
   () =>
     new Promise((resolve) => {
-      setTimeout(() => resolve(import("./pages/Home")), 10000);
+      setTimeout(() => resolve(import("./pages/Home")), 1000);
     })
 );
 const About = lazy(() => import("./pages/About"));
-const Contact_Us = lazy(() => import("./pages/Contact_Us"));
+const Contact_Us = lazy(() => import("./pages/Contact_US"));
 const Projects = lazy(() => import("./pages/Projects"));
 const Team = lazy(() => import("./pages/Team"));
 function App() {
