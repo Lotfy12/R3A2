@@ -42,7 +42,7 @@ const Form = () => {
           <div className="contact-item">
             <div className="contact-item__icon">
               <img
-                src="/public/assets/contact/email-icon.png"
+                src="/assets/contact/email-icon.png"
                 alt="email-icon"
               />
             </div>
@@ -61,7 +61,7 @@ const Form = () => {
           <div className="contact-item">
             <div className="contact-item__icon">
               <img
-                src="/public/assets/contact/whats-app-icon.png"
+                src="/assets/contact/whats-app-icon.png"
                 alt="email-icon"
               />
             </div>
@@ -75,7 +75,7 @@ const Form = () => {
           <div className="contact-item">
             <div className="contact-item__icon">
               <img
-                src="/public/assets/contact/whats-app-icon.png"
+                src="/assets/contact/whats-app-icon.png"
                 alt="email-icon"
               />{" "}
             </div>
@@ -92,7 +92,7 @@ const Form = () => {
           <div className="contact-item">
             <div className="contact-item__icon">
               <img
-                src="/public/assets/contact/location-icon.png"
+                src="/assets/contact/location-icon.png"
                 alt="email-icon"
               />{" "}
             </div>
@@ -204,7 +204,7 @@ const Form = () => {
             {/* Submit Button */}
             <button type="submit" className="main-button submit-btn">
               <img
-                src="/public/assets/contact/telegram-icon.png"
+                src="/assets/contact/telegram-icon.png"
                 alt="telegram-icon"
               />
               Start the project

@@ -4,23 +4,23 @@ import "./JavaScript.css";
 const JavaScript = () => {
   const javascriptData = [
     {
-      icon: "/public/assets/javascript/Overlay.png",
+      icon: "/assets/javascript/Overlay.png",
       title: "Full-Stack Control",
     },
     {
-      icon: "/public/assets/javascript/Overlay2.png",
+      icon: "/assets/javascript/Overlay2.png",
       title: "Faster Iteration",
     },
     {
-      icon: "/public/assets/javascript/Overlay3.png",
+      icon: "/assets/javascript/Overlay3.png",
       title: "Unified Ecosystem",
     },
     {
-      icon: "/public/assets/javascript/Overlay4.png",
+      icon: "/assets/javascript/Overlay4.png",
       title: "Scalable Architecture",
     },
     {
-      icon: "/public/assets/javascript/Overlay5.png",
+      icon: "/assets/javascript/Overlay5.png",
       title: "Tooling Efficiency",
     },
   ];

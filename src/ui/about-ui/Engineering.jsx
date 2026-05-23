@@ -6,7 +6,7 @@ const Engineering = () => {
       <div className="cards-container">
         <div className="card card--mission">
           <div className="card__icon">
-            <img src="/public/assets/about/Icon.png" alt="rock-icon" />
+            <img src="/assets/about/Icon.png" alt="rock-icon" />
           </div>
           <h3 className="card__title">Our Mission</h3>
           <p className="card__text">
@@ -17,7 +17,7 @@ const Engineering = () => {
 
         <div className="card card--vision">
           <div className="card__icon">
-            <img src="/public/assets/about/Icon2.png" alt="rock-icon" />
+            <img src="/assets/about/Icon2.png" alt="rock-icon" />
           </div>
           <h3 className="card__title">Our Vision</h3>
           <p className="card__text">
@@ -29,7 +29,7 @@ const Engineering = () => {
       </div>
       <div className="engineering__container">
         <div className="engineering__image">
-          <img src="/public/assets/about/engineer-img.png" alt="Team" />
+          <img src="/assets/about/engineer-img.png" alt="Team" />
         </div>
 
         <div className="engineering__content">

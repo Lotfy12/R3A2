@@ -3,7 +3,7 @@ import "./Projects_Card.css";
 const Projects_Card = () => {
   const cardData = [
     {
-      img: "/public/assets/projects/project-card-img.png",
+      img: "/assets/projects/project-card-img.png",
       technology1: "React",
       technology2: "AWS",
       technology3: "Node.js",
@@ -14,7 +14,7 @@ const Projects_Card = () => {
         "A high-performance analytics engine for fintech scaling, featuring real-time data streaming and predictive modeling for institutional investors.",
     },
     {
-      img: "/public/assets/projects/project-card-img.png",
+      img: "/assets/projects/project-card-img.png",
       technology1: "React",
       technology2: "AWS",
       technology3: "Node.js",
@@ -25,7 +25,7 @@ const Projects_Card = () => {
         "A high-performance analytics engine for fintech scaling, featuring real-time data streaming and predictive modeling for institutional investors.",
     },
     {
-      img: "/public/assets/projects/project-card-img.png",
+      img: "/assets/projects/project-card-img.png",
       technology1: "React",
       technology2: "AWS",
       technology3: "AWS",
@@ -36,7 +36,7 @@ const Projects_Card = () => {
         "A high-performance analytics engine for fintech scaling, featuring real-time data streaming and predictive modeling for institutional investors.",
     },
     {
-      img: "/public/assets/projects/project-card-img.png",
+      img: "/assets/projects/project-card-img.png",
       technology1: "React",
       technology2: "AWS",
       technology3: "Node.js",
@@ -47,7 +47,7 @@ const Projects_Card = () => {
         "A high-performance analytics engine for fintech scaling, featuring real-time data streaming and predictive modeling for institutional investors.",
     },
     {
-      img: "/public/assets/projects/project-card-img.png",
+      img: "/assets/projects/project-card-img.png",
       technology1: "React",
       technology2: "AWS",
       technology3: "Node.js",

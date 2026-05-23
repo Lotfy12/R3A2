@@ -14,10 +14,9 @@ const NavBar = () => {
       <nav className="container">
         <ul className="navBar-items">
           <div className="logo">
-            <img src="/public/assets/logo.png" alt="logo" />
+            <img src="/assets/logo.png" alt="logo" />
           </div>
 
-          {/* Hamburger Menu Toggle */}
           <button 
             className={`hamburger ${isOpen ? "open" : ""}`} 
             onClick={toggleMenu}

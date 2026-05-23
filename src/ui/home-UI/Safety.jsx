@@ -2,25 +2,25 @@ import "./Safety.css";
 const Safety = () => {
   const safetyData = [
     {
-      icon: "../../public/assets/safety/safetyicon1.png",
+      icon: "/assets/safety/safetyicon1.png",
       text: "Secure Development",
       paragraph:
         "Adhering to OWASP standards and implementing secure           SDLC practices throughout the lifecycle.",
     },
     {
-      icon: "../../public/assets/safety/safetyicon2.png",
+      icon: "/assets/safety/safetyicon2.png",
       text: "Data Protection",
       paragraph:
         "End-to-end encryption at rest and in transit using advanced AES-256 and TLS protocols.",
     },
     {
-      icon: "../../public/assets/safety/safetyicon3.png",
+      icon: "/assets/safety/safetyicon3.png",
       text: "Continuous Testing",
       paragraph:
         "Automated CI/CD pipelines with integrated unit, integration, and vulnerability scanning.",
     },
     {
-      icon: "../../public/assets/safety/safetyicon4.png",
+      icon: "/assets/safety/safetyicon4.png",
       text: "Speed & Scale",
       paragraph:
         "Horizontal scalability and load optimization to ensure performance even under extreme traffic.",

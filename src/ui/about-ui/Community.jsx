@@ -37,7 +37,7 @@ const Community = () => {
               <i class="fas fa-trophy"></i>
             </div>
 
-            <img src="/public/assets/about/Icon3.png" alt="icon" />
+            <img src="/assets/about/Icon3.png" alt="icon" />
             <h3 class="feature-card__title">Quality Excellence</h3>
             <p class="feature-card__text">
               We maintain rigorous quality standards and implement automated and
@@ -55,7 +55,7 @@ const Community = () => {
             <div class="feature-card__icon">
               <i class="fas fa-handshake"></i>
             </div>
-            <img src="/public/assets/about/Icon4.png" alt="icon" />
+            <img src="/assets/about/Icon4.png" alt="icon" />
             <h3 class="feature-card__title">Client Partnership</h3>
             <p class="feature-card__text">
               We operate with uncompromising transparency, ensuring you're

@@ -138,7 +138,7 @@ const Team_Skills = () => {
         <div class="team-values">
           <div class="value-card">
             <img
-              src="/public/assets/team/value-icon.png"
+              src="/assets/team/value-icon.png"
               className="value-icon"
             />
             <h4>Collaboration</h4>
@@ -150,7 +150,7 @@ const Team_Skills = () => {
 
           <div class="value-card">
             <img
-              src="/public/assets/team/value-icon2.png"
+              src="/assets/team/value-icon2.png"
               className="value-icon"
             />
             <h4>Transparency</h4>
@@ -162,7 +162,7 @@ const Team_Skills = () => {
 
           <div class="value-card">
             <img
-              src="/public/assets/team/value-icon3.png"
+              src="/assets/team/value-icon3.png"
               className="value-icon"
             />
             <h4>Continuous Learning</h4>

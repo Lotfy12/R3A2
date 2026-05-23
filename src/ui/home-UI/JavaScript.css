@@ -1,7 +1,7 @@
 .javaScript-section {
   height: 125vh;
   margin-bottom:80px ;
-  background-image: url("/public/assets/javascript/Js.png");
+  background-image: url("/assets/javascript/Js.png");
   background-size: contain;
   background-position: center;
 }

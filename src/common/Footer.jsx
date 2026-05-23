@@ -8,7 +8,7 @@ const Footer = () => {
           <div class="logo">
             <img src="/assets/logo.png" alt="logo" />
             <img
-              src="/public/assets/footer/footer-logo.png"
+              src="/assets/footer/footer-logo.png"
               alt="footer-logo"
             />{" "}
           </div>
@@ -59,17 +59,17 @@ const Footer = () => {
           <h4>GET IN TOUCH</h4>
 
           <div class="contact-item">
-            <img src="/public/assets/footer/Link2.png" alt="footer-icon" />{" "}
+            <img src="/assets/footer/Link2.png" alt="footer-icon" />{" "}
             <p>hello@digitalstudio.com</p>
           </div>
 
           <div class="contact-item">
-            <img src="/public/assets/footer/Link.png" alt="footer-icon" />{" "}
+            <img src="/assets/footer/Link.png" alt="footer-icon" />{" "}
             <p>+91 9764312850</p>
           </div>
 
           <div class="contact-item">
-            <img src="/public/assets/footer/Link3.png" alt="footer-icon" />{" "}
+            <img src="/assets/footer/Link3.png" alt="footer-icon" />{" "}
             <p>
               123 Innovation Drive,
               <br />
