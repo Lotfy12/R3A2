@@ -10,7 +10,7 @@ const Home = lazy(
     })
 );
 const About = lazy(() => import("./pages/About"));
-const Contact_Us = lazy(() => import("./pages/Contact_US"));
+const Contact_Us = lazy(() => import("./pages/Contact_Us"));
 const Projects = lazy(() => import("./pages/Projects"));
 const Team = lazy(() => import("./pages/Team"));
 function App() {

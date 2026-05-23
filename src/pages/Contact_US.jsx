@@ -5,7 +5,7 @@ import Contact_Session from "../ui/contact_us-ui/Frequently_Questions";
 import Form from "../ui/contact_us-ui/Form";
 import "./Contact_Us.css";
 
-const Contact_Us = () => {
+const Contact_US = () => {
   return (
     <>
       <section className="contact-session">
@@ -32,4 +32,4 @@ const Contact_Us = () => {
   );
 };
 
-export default Contact_Us;
+export default Contact_US;
