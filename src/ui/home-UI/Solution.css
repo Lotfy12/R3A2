@@ -218,3 +218,41 @@ s .lines span:nth-child(5) {
   margin: 0 auto;
   margin-top: 30px;
 }
+
+@media (max-width: 768px) {
+  .solution-paragraph {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .solution-body {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .solution-item1,
+  .solution-item2,
+  .solution-item3,
+  .solution-item4 {
+    grid-column: 1 / -1;
+    grid-row: auto;
+    padding: 24px;
+  }
+  .solution-item1 p,
+  .solution-item2 p,
+  .solution-item3 p,
+  .solution-item4 p {
+    font-size: 14px;
+    padding: 12px 0;
+  }
+  .solution-item1 h4,
+  .solution-item2 h4,
+  .solution-item3 h4,
+  .solution-item4 h4 {
+    font-size: 18px;
+  }
+  .code-icon {
+    display: none;
+  }
+  .lines {
+    gap: 20px;
+  }
+}

@@ -3,7 +3,6 @@
   --color-secondary: #1a1a2e;
   --color-dark: #0f0f1e;
 
-  /* Typography */
   --font-family: "Inter", sans-serif;
   --font-size-base: 16px;
   --font-size-sm: 14px;
@@ -99,5 +98,20 @@
 .btn--secondary:hover {
   background-color: var(--color-primary);
   color: var(--color-darker);
+}
+
+@media (max-width: 768px) {
+  .about-team-session {
+    padding: var(--spacing-xl) var(--spacing-sm);
+    background-position: center;
+  }
+  .about__title {
+    font-size: 26px;
+    margin-bottom: var(--spacing-md);
+  }
+  .about__text {
+    font-size: 15px;
+    line-height: 1.6;
+  }
 }
 

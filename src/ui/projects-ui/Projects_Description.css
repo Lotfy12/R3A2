@@ -13,3 +13,15 @@
   color: #fff;
   padding-top: 16%;
 }
+
+@media (max-width: 768px) {
+  .projects-work-description {
+    height: auto;
+    padding: 60px 20px;
+  }
+  .projects-work-description p {
+    font-size: 20px;
+    padding-top: 0;
+    line-height: 30px;
+  }
+}

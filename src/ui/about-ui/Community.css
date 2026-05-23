@@ -156,3 +156,23 @@
   background-color: rgba(0, 195, 255, 0.205);
   border: 1px solid rgba(0, 195, 255, 0.048);
 }
+
+@media (max-width: 768px) {
+  .commitment__container {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .commitment__content {
+    padding: 0;
+  }
+  .commitment__title {
+    font-size: 32px;
+  }
+  .commitment__text {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .commitment__stats {
+    gap: 20px;
+  }
+}

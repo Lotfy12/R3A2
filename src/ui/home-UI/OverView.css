@@ -194,3 +194,18 @@ p.description {
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 768px) {
+  .overview-session {
+    margin: 60px 0px;
+  }
+  .info-card {
+    padding: 20px;
+  }
+  .FAQ-content {
+    padding: 16px;
+  }
+  .FAQ-question {
+    font-size: 14px;
+  }
+}

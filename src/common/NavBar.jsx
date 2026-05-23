@@ -1,6 +1,14 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
+
 const NavBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header>
       <nav className="container">
@@ -9,28 +17,35 @@ const NavBar = () => {
             <img src="/public/assets/logo.png" alt="logo" />
           </div>
 
-          <div className="navBar-item">
+          {/* Hamburger Menu Toggle */}
+          <button 
+            className={`hamburger ${isOpen ? "open" : ""}`} 
+            onClick={toggleMenu}
+            aria-label="Toggle navigation"
+          >
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+          </button>
+
+          <div className={`navBar-item ${isOpen ? "active" : ""}`}>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
             </li>
             <li>
-              <Link to="/team">Team</Link>
+              <Link to="/team" onClick={() => setIsOpen(false)}>Team</Link>
             </li>
 
             <li>
-              <Link to="/projects">Projects</Link>
+              <Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
             </li>
 
             <li>
-              <Link to="/services">Services</Link>
+              <Link to="/about" onClick={() => setIsOpen(false)}>About Us</Link>
             </li>
 
             <li>
-              <Link to="/about">About Us</Link>
-            </li>
-
-            <li>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact" onClick={() => setIsOpen(false)}>Contact Us</Link>
             </li>
           </div>
         </ul>

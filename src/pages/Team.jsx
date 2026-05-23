@@ -10,21 +10,22 @@ const Team = () => {
       <section className="team-hero-section ">
         <div className="container">
 
-        <NavBar />
-        <Main_Title
-          title={"Title-hero"}
-          first_heading={"The People Behind"}
-          second_heading={"R3A2"}
-          paragraph={
-            "Meet the designers and developers who collaborate to turn ideas into practical digital solutions" }
+          <NavBar />
+          <Main_Title
+            title={"Title-hero"}
+            first_heading={"The People Behind"}
+            second_heading={"R3A2"}
+            paragraph={
+              "Meet the designers and developers who collaborate to turn ideas into practical digital solutions"}
           />
-          </div>
+        </div>
       </section>
       <Team_Skills />
       <Ask
-        title="Want to Work With Our Team?"
-        paragraph="Have a vision for a digital product? We're ready to help you bring it to life with precision and creativity"
+        title="Ready to Build Something Remarkable?"
+        paragraph="Our team combines design precision with technical expertise to create digital products that solve real-world problems."
         main_btn="Start a Conversation"
+        alt_btn="View Case Studies"
       />
       <Footer />
     </>

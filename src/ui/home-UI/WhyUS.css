@@ -68,3 +68,26 @@
   line-height: 1.6;
   padding: 2px;
 }
+
+@media (max-width: 768px) {
+  .whyUs-section {
+    height: auto;
+    margin: 40px 0px;
+  }
+  .whyUs-content {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+  .whyUS-number {
+    font-size: 72px;
+  }
+  .whyUS-icon {
+    margin-top: 30px;
+  }
+  .whyUs-title {
+    font-size: 16px;
+  }
+  .whyUs-paragraph {
+    font-size: 14px;
+  }
+}

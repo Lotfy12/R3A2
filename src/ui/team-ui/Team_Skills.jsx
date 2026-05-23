@@ -56,7 +56,7 @@ const Team_Skills = () => {
 
             <div class="team-image">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600"
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=600"
                 alt="Sajim"
               />
 
@@ -87,7 +87,7 @@ const Team_Skills = () => {
 
             <div class="team-image">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600"
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=600"
                 alt="Ashwani"
               />
 
@@ -118,7 +118,7 @@ const Team_Skills = () => {
 
             <div class="team-image">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600"
+                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=600"
                 alt="M.Lofty"
               />
 

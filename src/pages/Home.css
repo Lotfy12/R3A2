@@ -83,3 +83,48 @@
   color: #64748b;
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding-bottom: 40px;
+  }
+  .hero-body {
+    width: 95%;
+    padding: 40px 0px;
+  }
+  .hero-title {
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  .hero-header {
+    font-size: 32px;
+  }
+  .hero-header::after {
+    font-size: 32px;
+  }
+  .hero-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .hero-description br {
+    display: none;
+  }
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin: 24px 0px;
+  }
+  .hero-buttons .alternative-button {
+    margin-left: 0;
+  }
+  .Team-statistics {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .Team-statistics h5 {
+    font-size: 24px;
+  }
+}

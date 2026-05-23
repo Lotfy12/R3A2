@@ -31,6 +31,8 @@ const Projects = () => {
         paragraph="From concept to launch, we help transform ideas into scalable and impactful digital products"
         main_btn="Work With Us"
         alt_btn="Contact Us"
+        mainPath="/contact"
+        altPath="/contact"
       />
       <Footer />
     </>

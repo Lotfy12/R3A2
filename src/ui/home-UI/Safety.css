@@ -60,3 +60,29 @@
   font-size: 15px;
   font-weight: 400;
 }
+
+@media (max-width: 768px) {
+  .safety-content {
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+  }
+  .safety-header {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .safety-inf {
+    text-align: center;
+    gap: 16px;
+  }
+  .safety-items {
+    padding-left: 20px;
+    text-align: left;
+  }
+  .safety-extension {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+  }
+}

@@ -30,3 +30,29 @@
   margin-top: 22px;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .ask-content {
+    max-width: 90%;
+  }
+  .ask-background {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .ask-title {
+    font-size: 26px;
+    padding-top: 40px;
+  }
+  .ask-paragraph {
+    font-size: 15px;
+  }
+  .ask-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .ask-btn .alternative-button {
+    margin-left: 0;
+  }
+}

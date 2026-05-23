@@ -37,6 +37,8 @@ const About = () => {
 that push boundaries"
         main_btn="Start the project"
         alt_btn=" Discuss Your Idea"
+        mainPath="/contact"
+        altPath="/contact"
       />
       
       <Footer />

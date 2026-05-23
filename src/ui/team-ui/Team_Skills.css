@@ -99,7 +99,8 @@
 }
 
 .team-image img {
-  width: 160px;
+  width: 150px;
+  height:180px;
   border-radius: 12px;
   filter: grayscale(100%);
   transition: 0.3s;
@@ -220,5 +221,27 @@
 
   .team-info p {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-section {
+    padding: 60px 0;
+  }
+  
+  .team-values-header {
+    margin: 60px 0 30px;
+  }
+  
+  .team-values-header h2 {
+    font-size: 26px;
+  }
+  
+  .skills {
+    justify-content: center;
+  }
+  
+  .team-info h3 {
+    font-size: 22px;
   }
 }

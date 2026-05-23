@@ -18,3 +18,10 @@
   gap: 20px;
   width: 40%;
 }
+
+@media (max-width: 768px) {
+  .loading-bar {
+    margin-top: 250px;
+    width: 80%;
+  }
+}

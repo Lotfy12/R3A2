@@ -4,6 +4,7 @@
   color: #fff;
   padding: 0px 0px 30px 0px;
 }
+
 .footer {
   padding: 80px 0;
   color: #cbd5e1;
@@ -64,13 +65,16 @@
   transition: 0.3s;
 }
 
-.footer-links li:hover ,.bug-items span:hover{
+.footer-links li:hover,
+.bug-items span:hover {
   color: #00c2ff;
   transform: translateX(5px);
 }
-.bug-items span{
-    transition: all 0.35s;
+
+.bug-items span {
+  transition: all 0.35s;
 }
+
 .footer-contact h4 {
   font-size: 18px;
   margin-bottom: 20px;
@@ -113,7 +117,7 @@
   transition: 0.3s;
 }
 
-.social-icons span:hover  {
+.social-icons span:hover {
   background: #00c2ff;
   color: #000;
 }
@@ -143,15 +147,36 @@
   color: #4f4f4f;
 }
 
-.bug-items{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 18px;
+.bug-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
 }
+
+@media (max-width: 768px) {
+  .bug {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    padding: 24px 0px 0px 0px;
+  }
+
+  .bug-items {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 @media (max-width: 576px) {
   .footer-content {
     grid-template-columns: 1fr;
+
+  }
+
+  .footer {
+
+    padding-left: 24px !important;
   }
 
   .footer-brand,

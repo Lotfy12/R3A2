@@ -61,17 +61,7 @@ const ContactSection = () => {
     },
   ];
 
-  /**
-   * Handle form input changes
-   */
 
-  /**
-   * Handle form submission
-   */
-
-  /**
-   * Toggle FAQ accordion item
-   */
   const toggleFAQ = (id) => {
     setExpandedFAQ(expandedFAQ === id ? null : id);
   };

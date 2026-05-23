@@ -16,7 +16,9 @@ html {
 
 .container {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
 }
 
 .main-button {
@@ -27,6 +29,7 @@ html {
   background: linear-gradient(to right, #00c2ff, #007499);
   border-radius: 12px;
   cursor: pointer;
+  border: none;
 }
 .alternative-button {
   font-size: 24px;
@@ -39,4 +42,14 @@ html {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+  .main-button, .alternative-button {
+    font-size: 18px;
+    padding: 6px 12px;
+  }
 }

@@ -161,6 +161,15 @@
   .cards-container {
     gap: 24px;
   }
+
+  .engineering__title {
+    font-size: 28px;
+  }
+
+  .engineering__text {
+    font-size: 15px;
+    line-height: 1.6;
+  }
 }
 
 /* Mobile */

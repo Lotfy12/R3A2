@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import Ask from "../common/Ask";
 import Footer from "../common/Footer";
 import NavBar from "../common/NavBar";
@@ -9,6 +10,7 @@ import Technology from "../ui/home-UI/Technology";
 import WhyUS from "../ui/home-UI/WhyUS";
 import "./Home.css";
 const Home = () => {
+  const navigate = useNavigate();
   const heroData = [
     { title: "98%", description: "Uptime Guaranteed" },
     { title: "2+", description: "Experience" },
@@ -34,8 +36,8 @@ const Home = () => {
             applications,intelligent systems, and elegant user experiences.{" "}
           </h2>
           <div className="hero-buttons">
-            <button className="main-button">Explore Project</button>
-            <button className="alternative-button">Meet The Team</button>
+            <button className="main-button" onClick={() => navigate("/projects")}>Explore Project</button>
+            <button className="alternative-button" onClick={() => navigate("/team")}>Meet The Team</button>
           </div>
 
           <div className="Team-statistics">
